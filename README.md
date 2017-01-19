@@ -1,3 +1,7 @@
+#DocView
+
+A simple viewer for MD files written in php
+
 ## Installation
 
 Just checkout repo or copy files to a public folder.

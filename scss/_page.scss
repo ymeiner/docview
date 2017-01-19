@@ -1,12 +1,13 @@
 body{
   margin-bottom: 80px;
+  padding-top: 50px;
   section {
     article {
       p{
         img{
           @include img-responsive();
           padding:10px;
-        } 
+        }
       }
       h1 {
         font-size: 3em;

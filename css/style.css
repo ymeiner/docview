@@ -5807,7 +5807,8 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  padding-top: 50px; }
   body section article p img {
     display: block;
     max-width: 100%;

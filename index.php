@@ -9,11 +9,16 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header"><img src="https://kemptechnologies.com/sites/all/themes/custom/ktwide/images/KEMP-logov2.png"/>Document Viewer</div>
+        <div class="navbar-header"><a class="navbar-brand" href="#">DocView, a Document Viewer</a></div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/" target="_blank">what is DocView?</a></li>
+          <li><a href="https://github.com/ymeiner/docview" target="_blank">Github Repo</a></li>
+        </ul>
       </div>
     </nav>
+
   </header>
   <section class="container">
     <article class="row">
