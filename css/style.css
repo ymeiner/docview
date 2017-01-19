@@ -5807,7 +5807,8 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
-  margin-bottom: 80px;
+  background: #f4f7f6;
+  margin-bottom: 60px;
   padding-top: 50px; }
   body section article p img {
     display: block;
@@ -5857,11 +5858,10 @@ body {
     position: fixed;
     bottom: 0;
     left: 0;
-    height: 60px;
     width: 100%;
-    color: white;
-    background: #414042; }
+    background: white;
+    border-top: 1px solid #e7e7e7; }
     body > footer > .container {
       padding-top: 10px; }
       body > footer > .container a {
-        color: white; }
+        color: black; }

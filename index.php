@@ -5,17 +5,29 @@
 <html>
 <head>
   <link href="/css/style.css" rel="stylesheet" >
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header"><a class="navbar-brand" href="#">DocView, a Document Viewer</a></div>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/" target="_blank">what is DocView?</a></li>
-          <li><a href="https://github.com/ymeiner/docview" target="_blank">Github Repo</a></li>
-        </ul>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">DocView, a Document Viewer</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/" target="_blank">what is DocView?</a></li>
+            <li><a href="https://github.com/ymeiner/docview" target="_blank">Github Repo</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
