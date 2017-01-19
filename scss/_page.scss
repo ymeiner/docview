@@ -1,0 +1,88 @@
+body{
+  margin-bottom: 80px;
+  section {
+    article {
+      p{
+        img{
+          @include img-responsive();
+          padding:10px;
+        } 
+      }
+      h1 {
+        font-size: 3em;
+        border-bottom: 2px groove white;
+        padding-bottom: 0.25em;
+        margin-bottom:0.5em;
+      }
+      table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: $line-height-computed;
+        border: 1px solid $table-border-color;
+        // Cells
+        > thead,
+        > tbody,
+        > tfoot {
+          > tr {
+            > th,
+            > td {
+              border: 1px solid $table-border-color;
+              padding: $table-cell-padding;
+              line-height: $line-height-base;
+              vertical-align: top;
+              border-top: 1px solid $table-border-color;
+            }
+          }
+        }
+        // Bottom align for column headings
+        > thead > tr {
+          th {
+            vertical-align: bottom;
+            border-bottom: 2px solid $table-border-color;
+          }
+          > th, > td {
+            border-bottom-width: 2px;
+          }
+        }
+        // Remove top border from thead by default
+        > caption + thead,
+        > colgroup + thead,
+        > thead:first-child {
+          > tr:first-child {
+            > th,
+            > td {
+              border-top: 0;
+            }
+          }
+        }
+        > tbody > tr:nth-of-type(odd) {
+          background-color: $table-bg-accent;
+        }
+        // Account for multiple tbody instances
+        > tbody + tbody {
+          border-top: 2px solid $table-border-color;
+        }
+
+        // Nesting
+        table {
+          background-color: $body-bg;
+        }
+      }
+    }
+  }
+  > footer {
+    > .container{
+      a {
+        color: white;
+      }
+      padding-top:10px;
+    }
+    position:fixed;
+    bottom:0;
+    left:0;
+    height:60px;
+    width: 100%;
+    color: white;
+    background: #414042;
+  }
+}
