@@ -1,6 +1,7 @@
 ## Installation
 
-Just copy the content to a public folder
+Just checkout repo or copy files to a public folder.
+
 
 install composer:
 
